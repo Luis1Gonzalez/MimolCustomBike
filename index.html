@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MimolCustomBike</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="icon" type="image/x-icon" href="/img/icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+  <div id="container">
+
+    <header>
+      <div class="logo">
+        <img src="img/logo.png" alt="logo bici">
+      </div>
+      <div id="nombre">
+        <p>MIMOL CUSTOM BIKE</p>
+
+        <div id="carrote">
+          
+            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+              <img src="img/cart.png" alt="">
+            </button>
+          
+          <div style="min-height: 120px;">
+            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+              <div class="card card-body">
+  
+                <div id="carrito">
+                  <table id="lista-carrito">
+                    <thead id="panda">
+                      <tr id="banda">
+                        <th>Imagen</th>
+                        <th>Modelo</th>
+                        <th>Precio</th>
+                        <th>Cantidad</th>
+                        <th></th>
+                      </tr>
+                    </thead>
+                    <tbody></tbody>
+                  </table>
+                  <button type="button" name="button" id="vaciar-carrito" class="boton">Vaciar Carrito</button>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+  
+        </div>
+
+      </div>
+      
+    </header>
+
+
+    <main id="lista-bici">
+      <div class="modelo">
+        <img src="img/bici1.jpg" alt="bicicleta 1">
+        <h6>MARCA: Miura</h6>
+        <p>MODELO: XJR-201</p>
+        <span>PRECIO:170€</span>
+        <button type="button" name="button" class="agregar" data-id="01">Agregar al Carrito</button>
+      </div>
+      <div class="modelo" id="02">
+        <img src="img/bici2.jpg" alt="bicicleta 2">
+        <h6>MARCA: Specialized</h6>
+        <p>MODELO: ZXSD-202</p>
+        <span>PRECIO:256€</span>
+        <button type="button" name="button" class="agregar" data-id="02">Agregar al Carrito</button>
+      </div>
+      <div class="modelo" id="03">
+        <img src="img/bici3.jpg" alt="bicicleta 3">
+        <h6>MARCA: Bicicletas Trek</h6>
+        <p>MODELO: HJK-203</p>
+        <span>PRECIO:380€</span>
+        <button type="button" name="button" class="agregar" data-id="03">Agregar al Carrito</button>
+      </div>
+      <div class="modelo" id="04">
+        <img src="img/bici4.jpg" alt="bicicleta 4">
+        <h6>MARCA: Scott bikes</h6>
+        <p>MODELO: ZSD-204</p>
+        <span>PRECIO:520€</span>
+        <button type="button" name="button" class="agregar" data-id="04">Agregar al Carrito</button>
+      </div>
+      <div class="modelo" id="05">
+        <img src="img/bici5.jpg" alt="bicicleta 5">
+        <h6>MARCA: Cube bikes</h6>
+        <p>MODELO: ÑSL-205</p>
+        <span>PRECIO:760€</span>
+        <button type="button" name="button" class="agregar" data-id="05">Agregar al Carrito</button>
+      </div>
+      <div class="modelo" id="06">
+        <img src="img/bici6.jpg" alt="bicicleta 6">
+        <h6>MARCA: Cannondale</h6>
+        <p>MODELO: LAK-206</p>
+        <span>PRECIO:770€</span>
+        <button type="button" name="button" class="agregar" data-id="06">Agregar al Carrito</button>
+      </div>
+      <div class="modelo" id="07">
+        <img src="img/bici7.jpg" alt="bicicleta 7">
+        <h6>MARCA: BMC bikes</h6>
+        <p>MODELO: ZSK-207</p>
+        <span>PRECIO:1030€</span>
+        <button type="button" name="button" class="agregar" data-id="07">Agregar al Carrito</button>
+      </div>
+      <div class="modelo" id="08">
+        <img src="img/bici8.jpg" alt="bicicleta 8">
+        <h6>MARCA: Orbea bikes</h6>
+        <p>MODELO: SDR-208</p>
+        <span>PRECIO:1050€</span>
+        <button type="button" name="button" class="agregar" data-id="08">Agregar al Carrito</button>
+      </div>
+      <div class="modelo" id="09">
+        <img src="img/bici9.jpg" alt="bicicleta 9">
+        <h6>MARCA: Santa Cruz Bikes</h6>
+        <p>MODELO: SCB-209</p>
+        <span>PRECIO:2000€</span>
+        <button type="button" name="button" class="agregar" data-id="09">Agregar al Carrito</button>
+      </div>
+      
+    </main>
+
+    <hr>
+
+  </div>
+  <script type="text/javascript" src="codigo.js"></script>
+  <script type="text/javascript" src="jquery/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>  
+</body>
+
+</html>
